@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from numerik import bisection_method, central_difference 
+from main import bisection_method, central_difference 
 
 def f(x):
     return x**3 - 3*x**2 + 2*x
